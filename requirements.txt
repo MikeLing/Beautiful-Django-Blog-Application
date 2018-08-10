@@ -1,7 +1,6 @@
 backports.weakref==1.0.post1
 certifi==2018.4.16
 configparser==3.5.0
-cryptography==2.1.4
 cycler==0.10.0
 Django==1.11.14
 enum34==1.1.6

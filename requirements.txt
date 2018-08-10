@@ -32,7 +32,6 @@ pbr==4.2.0
 Pillow==5.2.0
 pipenv==2018.7.1
 protobuf==3.6.0
-pycrypto==2.6.1
 pygobject==3.26.1
 pylint==1.9.3
 pyparsing==2.2.0

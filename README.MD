@@ -3,24 +3,24 @@
 
 <h2>Pre Requirements </h2><br>
 
-$ sudo apt-get install python3<br>
-$ sudo curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py <br>
-$ sudo python get-pip.py<br>
+``` $ sudo apt-get install python3
+$ sudo curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+$ sudo python get-pip.py ```
 
-<h2>Post Requirements</h2><br>
-$ sudo git clone https://github.com/bharatkaistha/Beautiful-Django-Blog-Application.git<br>
-<p>Clone the repository.</p><br>
-$ cd Beautiful-Django-Blog-Application<br>
-$ sudo pip install -r requirements.txt<br>
+<h2>Post Requirements</h2>
+``` $ sudo git clone https://github.com/bharatkaistha/Beautiful-Django-Blog-Application.git<br> ```
+<p>Clone the repository.</p>
+``` $ cd Beautiful-Django-Blog-Application
+$ sudo pip install -r requirements.txt<br>```
 <p>This will install all the dependencies which are required for the installation of the app</p>
 
 <h2> Setting Database</h2><br>
+```
+$ python3 manage.py makemigrations
+$ sudo python3 manage.py migrate
+$ sudo python3 manage.py runserver ```
 
-$ python3 manage.py makemigrations<br>
-$ sudo python3 manage.py migrate<br>
-$ sudo python3 manage.py runserver<br>
-
-<h2>Host address</h2><br>
-http://127.0.0.1:8000<br>
-http://127.0.0.1:8000/blog/<br>
-http://127.0.0.1:8000/admin/<br
+### Host address
+``` http://127.0.0.1:8000
+http://127.0.0.1:8000/blog/
+http://127.0.0.1:8000/admin/ ```
